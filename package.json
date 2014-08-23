@@ -2,7 +2,7 @@
   "name": "connect-proxy-models",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/UsabilityDynamics/node-connect-proxy-models/issues"
   },
-  "homepage": "https://github.com/UsabilityDynamics/node-connect-proxy-models"
+  "homepage": "https://github.com/UsabilityDynamics/node-connect-proxy-models",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "sails-disk": "git://github.com/andypotanin/sails-disk",
+    "sails-memory": "^0.10.2",
+    "waterline": "^0.10.8"
+  }
 }
