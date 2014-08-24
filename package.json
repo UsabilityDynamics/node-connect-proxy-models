@@ -18,8 +18,17 @@
   "homepage": "https://github.com/UsabilityDynamics/node-connect-proxy-models",
   "dependencies": {
     "debug": "^1.0.4",
+    "lodash": "^2.4.1",
+    "node-noop": "0.0.1",
+    "noop": "^0.2.2",
     "sails-disk": "git://github.com/andypotanin/sails-disk",
     "sails-memory": "^0.10.2",
-    "waterline": "^0.10.8"
+    "sails-redis": "^0.10.2",
+    "waterline": "git://github.com/UsabilityDynamics/node-waterline",
+    "waterline-elasticsearch": "git://github.com/UsabilityDynamics/node-waterline-elasticsearch"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "sails-postgresql": "^0.10.8"
   }
 }
