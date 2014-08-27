@@ -18,6 +18,7 @@
   "homepage": "https://github.com/UsabilityDynamics/node-connect-proxy-models",
   "dependencies": {
     "debug": "^1.0.4",
+    "express": "^4.8.5",
     "lodash": "^2.4.1",
     "node-noop": "0.0.1",
     "noop": "^0.2.2",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "mocha": "^1.21.4",
+    "request": "^2.40.0",
     "sails-postgresql": "^0.10.8"
   }
 }

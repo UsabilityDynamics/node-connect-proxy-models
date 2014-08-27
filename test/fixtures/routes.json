@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "6a8ca01c-7896-48e9-81cc-9f70661fcb32",
+    "_type": "proxyRoute",
+    "patterns": [
+      "udx.io",
+      "www.udx.io"
+    ],
+    "backends": [
+      "208.52.164.213:49153",
+      "208.52.164.213:49151"
+    ]
+  },
+  {
+    "_id": "6a8ca01c-7896-48e9-81cc-9f70661fcb32",
+    "_type": "proxyRoute",
+    "patterns": [
+      "cdn.udx.io"
+      "udx.io/cdn",
+      "www.udx.io/cdn"
+    ],
+    "backends": [
+      "208.52.164.213:49153",
+      "208.52.164.213:49151"
+    ]
+  },
+  {
+    "_id": "6a8ca01c-7896-48e9-81cc-9f70661fcb32",
+    "_type": "proxyRoute",
+    "options": {
+      "key": "key-blob",
+      "cert": "cert-blob"
+    },
+    "patterns": [
+      "sample.com/media",
+      "media.sample.com"
+    ],
+    "backends": [
+      "208.52.164.213:49153",
+      "208.52.164.213:49151"
+    ],
+    "category": [
+      "whatever",
+      "featured"
+    ]
+  },
+  {
+    "_id": "6a8ca01c-7896-48e9-81cc-9f70661fcb32",
+    "_type": "proxyRoute",
+    "options": {
+      "hostname": "somecustomname.com,
+      "key": "key-blob-",
+      "cert": "cert-blob-"
+    },
+    "patterns": [
+      "www.sample.com",
+      "sample.com"
+    ],
+    "backends": [
+      "208.52.164.213:49153",
+      "208.52.164.213:49151"
+    ]
+  },
+  {
+    "_id": "6a8ca01c-7896-48e9-81cc-9f70661fcb32",
+    "_type": "proxyRoute",
+    "title": "All sample.com Videos to a Video Server",
+    "priority": 100,
+    "patterns": [
+      "*.sample.com/videos",
+      "*.sample.com/videos/*"
+    ],
+    "backends": [
+      "208.52.164.213:49153",
+      "208.52.164.213:49151"
+    ]
+  },
+]
